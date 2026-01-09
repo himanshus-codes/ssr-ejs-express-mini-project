@@ -1,9 +1,9 @@
 [
   {
-    "username": "Aayush",
+    "username": "aayush",
     "name": "Ayush Kumar",
     "avatar": "/avatars/user1.jpg",
-    "bio": "Backend learner | Node.js | Express | SSR",
+    "bio": "Backend learner | MERN | Node.js | Express | SSR",
     "followers": 1240,
     "following": 180,
     "posts": [
