@@ -48,14 +48,36 @@ URL	Result Open:
 - Browser receives fully rendered HTML
 
 ## Project Structure
+
 project-root/
-├── data/           # mock database (users.json)
-├── services/       # data access logic
-├── routes/         # route handlers
-├── views/          # EJS templates
-│   └── includes/   # header & footer
-├── public/         # CSS, images, icons
-├── index.js        # app entry point
+├── data/
+│   └── users.json            # Mock database
+│
+├── services/
+│   └── userProfileService.js # Data access logic
+│
+├── routes/
+│   └── instagram.js          # /ig/:username routes
+│
+├── views/
+│   ├── includes/
+│   │   ├── header.ejs
+│   │   └── footer.ejs
+│   │
+│   ├── profile.ejs           # Profile page (SSR)
+│   └── error.ejs             # User not found page
+│
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── avatars/
+│   ├── posts/
+│   └── icons/
+│
+├── index.js                  # App entry point
+├── package.json
+└── README.md
+
 
 
 
@@ -80,3 +102,4 @@ This project intentionally uses EJS to demonstrate:
 ❌ A full Instagram clone
 ❌ Production-ready
 ❌ Client-side rendered
+
