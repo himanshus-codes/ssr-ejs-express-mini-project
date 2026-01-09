@@ -33,8 +33,7 @@ Note : this demo app runs on system local host
 - Service layer fetches user data from users.json
 
 ### Example Routes
-URL	Result Open:
-(<https>://localhost:8080/ig/username)
+URL	Result 
 
 - /ig/aayush	Renders user profile
 - /ig/vini	Renders user profile
@@ -67,6 +66,7 @@ This project intentionally uses EJS to demonstrate:
 - ❌ A full Instagram clone
 - ❌ Production-ready
 - ❌ Client-side rendered
+
 
 
 
