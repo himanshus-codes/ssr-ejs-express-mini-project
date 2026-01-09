@@ -33,7 +33,7 @@ https: https://localhost:8000/ig/:username
 - Express extracts username from the URL
 - Service layer fetches user data from users.json
 
-# Example Routes
+### Example Routes
 URL	Result Open:
 (http://localhost:8080/ig/username)
 
@@ -68,6 +68,7 @@ This project intentionally uses EJS to demonstrate:
 ❌ A full Instagram clone
 ❌ Production-ready
 ❌ Client-side rendered
+
 
 
 
