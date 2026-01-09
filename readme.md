@@ -37,9 +37,9 @@ https: https://localhost:8000/ig/:username
 URL	Result Open:
 (http://localhost:8080/ig/username)
 
-/ig/aayush	Renders user profile
-/ig/vini	Renders user profile
-/ig/unknown	User not found page
+- /ig/aayush	Renders user profile
+- /ig/vini	Renders user profile
+- /ig/unknown	User not found page
 
 ## Server renders:
 
@@ -68,6 +68,7 @@ This project intentionally uses EJS to demonstrate:
 ❌ A full Instagram clone
 ❌ Production-ready
 ❌ Client-side rendered
+
 
 
 
