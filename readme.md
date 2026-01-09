@@ -47,40 +47,6 @@ URL	Result Open:
 - error page (if user does not exist)
 - Browser receives fully rendered HTML
 
-## Project Structure
-
-project-root/
-├── data/
-│   └── users.json            # Mock database
-│
-├── services/
-│   └── userProfileService.js # Data access logic
-│
-├── routes/
-│   └── instagram.js          # /ig/:username routes
-│
-├── views/
-│   ├── includes/
-│   │   ├── header.ejs
-│   │   └── footer.ejs
-│   │
-│   ├── profile.ejs           # Profile page (SSR)
-│   └── error.ejs             # User not found page
-│
-├── public/
-│   ├── css/
-│   │   └── style.css
-│   ├── avatars/
-│   ├── posts/
-│   └── icons/
-│
-├── index.js                  # App entry point
-├── package.json
-└── README.md
-
-
-
-
 
 ## Why EJS?
 
@@ -102,4 +68,5 @@ This project intentionally uses EJS to demonstrate:
 ❌ A full Instagram clone
 ❌ Production-ready
 ❌ Client-side rendered
+
 
