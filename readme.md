@@ -4,8 +4,8 @@ A minimal Server-Side Rendering (SSR) demo built using Express.js and EJS, showc
 
 The demo project simulates a simple Instagram-style profile page, rendered via a dynamic route:
 
-Note : this demo app runs on local host
-https: https://localhost:8000/ig/:username
+Note : this demo app runs on system local host
+https://localhost:<port>/ig/:username
 
 
 ## What this project demonstrates
@@ -68,6 +68,7 @@ This project intentionally uses EJS to demonstrate:
 - ❌ A full Instagram clone
 - ❌ Production-ready
 - ❌ Client-side rendered
+
 
 
 
