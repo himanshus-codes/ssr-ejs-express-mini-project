@@ -1,4 +1,4 @@
-### Instagram Profile – SSR Demo (Express + EJS)
+# Instagram Profile – SSR Demo (Express + EJS)
 
 A minimal Server-Side Rendering (SSR) demo built using Express.js and EJS, showcasing how dynamic pages can be rendered entirely on the server using backend data.
 
@@ -33,7 +33,7 @@ https: https://localhost:8000/ig/:username
 - Express extracts username from the URL
 - Service layer fetches user data from users.json
 
-## Example Routes
+# Example Routes
 URL	Result Open:
 (http://localhost:8080/ig/username)
 
@@ -41,7 +41,7 @@ URL	Result Open:
 /ig/vini	Renders user profile
 /ig/unknown	User not found page
 
-# Server renders:
+## Server renders:
 
 - profile page (if user exists) (the mock db (/data/users.json) contains data for only 3 users)
 - error page (if user does not exist)
@@ -57,16 +57,17 @@ This project intentionally uses EJS to demonstrate:
 
 
 
-# What this project is
+## What this project is
 
 ✅ A focused SSR demo
 ✅ Clean backend architecture
 ✅ A simple ejs & express learning project
 
-# What this project is not
+## What this project is not
 
 ❌ A full Instagram clone
 ❌ Production-ready
 ❌ Client-side rendered
+
 
 
