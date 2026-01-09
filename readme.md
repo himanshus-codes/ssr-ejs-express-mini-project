@@ -59,15 +59,16 @@ This project intentionally uses EJS to demonstrate:
 
 ## What this project is
 
-✅ A focused SSR demo
-✅ Clean backend architecture
-✅ A simple ejs & express learning project
+- ✅ A focused SSR demo
+- ✅ Clean backend architecture
+- ✅ A simple ejs & express learning project
 
 ## What this project is not
 
-❌ A full Instagram clone
-❌ Production-ready
-❌ Client-side rendered
+- ❌ A full Instagram clone
+- ❌ Production-ready
+- ❌ Client-side rendered
+
 
 
 
